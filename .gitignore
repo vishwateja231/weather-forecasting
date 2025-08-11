@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+out/
+
+# Test coverage
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Caches
+.eslintcache
+.parcel-cache/
+.cache/
+.turbo/
+.next/
+.svelte-kit/
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Archives
+*.tgz
+
+# Nested project ignores
+/the-weather-forecasting-main/node_modules/
+/the-weather-forecasting-main/build/
